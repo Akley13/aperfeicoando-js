@@ -1,6 +1,6 @@
 console.log("Primeiro programa: Trabalhando com variáveis!");
 
-const nome = "Akley";
+const nome = "Gabriel";
 const idade = 22;
 
 console.log("Nome: " + nome);
