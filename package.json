@@ -4,13 +4,7 @@
   "description": "Trienos - Testes - Exercícios",
   "main": "1-imprimindoEDeclarandoVariaveis.js",
   "scripts": {
-    "ex1": "nodemon Exercicios/1-imprimindoEDeclarandoVariaveis.js",
-    "ex2": "nodemon Exercicios/2-trabalhandoComVariaveis.js",
-    "imc": "nodemon Exercicios/imc-teste.js",
-    "loopsWhile": " nodemon Exercicios/8-loops.js",
-    "loopsFor": " nodemon Exercicios/9-loopsFor.js",
     "index": "nodemon index.js"
-
   },
   "keywords": [],
   "author": "",

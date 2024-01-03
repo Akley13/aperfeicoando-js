@@ -2,8 +2,14 @@
 
 // JS é case sensitive
 
-console.log("Bem-vindo");
+function codeEx2() {
+    console.log("Bem-vindo");
 
-const idade = 22;
+    const idade = 22;
+    
+    console.log(idade);      
+};
 
-console.log(Idade);
+module.exports = {
+    codeEx2,
+};

@@ -1,24 +1,24 @@
 
 const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
-  
-  function perguntar() {
-    readline.question(`Digite o exercicio: `, resposta => {
+  input: process.stdin,
+  output: process.stdout
+});
 
-      switch (resposta) {
-        case '1':
-          const mostrar = require("./Exercicios/1-imprimindoEDeclarandoVariaveis");
-          console.log(mostrar.codeEx1());
-          break;
-        
-        case '2':
-          console.log("Comando inválido.");
-          break;
-      };
-      readline.close();
-    });
+readline.question(`\nDigite o exercicio: `, resposta => {
+  let mostrar = "";
+   switch (resposta) {
+    case '1':
+      mostrar = require("./Exercicios/1-imprimindoEDeclarandoVariaveis.js");
+      console.log(mostrar.codeEx1());
+      break;
+
+    case '2':
+      mostrar = require("./Exercicios/2-trabalhandoComVariaveis.js");
+      console.log(mostrar.codeEx2());
+      break;
+
+    case '3':
+      mostrar = require("./Exercicios/3-operacoesAritmetcias.js");
+      console.log(mostrar.codeEx3());
   };
-
-perguntar();
+});
