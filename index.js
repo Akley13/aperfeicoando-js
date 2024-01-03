@@ -6,19 +6,54 @@ const readline = require('readline').createInterface({
 
 readline.question(`\nDigite o exercicio: `, resposta => {
   let mostrar = "";
-   switch (resposta) {
+  switch (resposta) {
     case '1':
-      mostrar = require("./Exercicios/1-imprimindoEDeclarandoVariaveis.js");
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
       console.log(mostrar.codeEx1());
       break;
 
     case '2':
-      mostrar = require("./Exercicios/2-trabalhandoComVariaveis.js");
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
       console.log(mostrar.codeEx2());
       break;
 
     case '3':
-      mostrar = require("./Exercicios/3-operacoesAritmetcias.js");
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
       console.log(mostrar.codeEx3());
+      break;
+
+    case '4':
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
+      console.log(mostrar.codeEx4());
+      break;
+
+    case '5':
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
+      console.log(mostrar.codeEx5());
+      break;
+
+    case '6':
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
+      console.log(mostrar.codeEx6());
+      break;
+
+    case '7':
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
+      console.log(mostrar.codeEx7());
+      break;
+
+    case '8':
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
+      console.log(mostrar.codeEx8());
+      break;
+
+    case '9':
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
+      console.log(mostrar.codeEx9());
+      break;
+    case '10':
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
+      console.log(mostrar.codeImc());
+      break;
   };
 });
