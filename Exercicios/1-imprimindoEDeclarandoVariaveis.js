@@ -1,9 +1,15 @@
-console.log("Primeiro programa: Trabalhando com variáveis!");
+function codeEx1() {
+    console.log("Primeiro programa: Trabalhando com variáveis!");
 
-const nome = "Gabriel";
-const idade = 22;
+    const nome = "Gabriel";
+    const idade = 22;
 
-console.log("Nome: " + nome);
-console.log("Idade: " + idade );
+    console.log("Nome: " + nome);
+    console.log("Idade: " + idade);
 
-console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
+    console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
+}
+
+module.exports = {
+    codeEx1,
+};

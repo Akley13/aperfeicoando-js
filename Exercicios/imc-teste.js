@@ -1,9 +1,12 @@
 console.log(`\nCÁLCULO DE IMC`);
 
-const peso = 106;
+const nome = "Akley";
+const peso = 87;
 const altura = 1.76;
 
 const imc = peso / altura ** 2;
+
+console.log(`Nome: ${nome}`);
 
 if (imc < 18.5) {
     console.log(`IMC: `, imc.toFixed(2));
@@ -24,5 +27,7 @@ if (imc < 18.5) {
     console.log(`IMC: `, imc.toFixed(2));
     console.log(`Classificação: Obesidade grau III.`);
 }
+
+console.log(`Nota: A classificação para o peso normal é entre 18.5 e 24.9.`);
 
 console.log(``);
