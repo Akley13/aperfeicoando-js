@@ -8,6 +8,8 @@ function codeEx1() {
     console.log("Idade: " + idade);
 
     console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
+
+    return `\nExercicio 1 - Feito `;
 };
 
 function codeEx2() {
@@ -16,6 +18,9 @@ function codeEx2() {
     const idade = 22;
 
     console.log(idade);
+
+    return `\nExercicio 2 - Feito `;
+
 };
 
 function codeEx3() {
@@ -25,6 +30,9 @@ function codeEx3() {
     console.log((10 + 8) * 2);
     console.log("2" + "2");
     console.log("Ano" + "2023");
+
+    return `\nExercicio 3 - Feito `;
+
 };
 
 function codeEx4() {
@@ -34,6 +42,9 @@ function codeEx4() {
 
     console.log("Conversao implicita: " + "10" / "2");
     console.log("Not a number: " + "Akley" / "2");
+
+    return `\nExercicio 4 - Feito `;
+
 };
 
 function codeEx5() {
@@ -62,6 +73,9 @@ function codeEx5() {
     console.log(`\nLista de nomes:  \n${nomeCompleto}  \n${nomeCompleto2}`);
 
     console.log(` \n`);
+
+    return `\nExercicio 5 - Feito `;
+
 };
 
 function codeEx6() {
@@ -88,6 +102,9 @@ function codeEx6() {
     console.log(`País favorito: `, listaDePaises[1]);
 
     console.log(`\n`);
+
+    return `\nExercicio 6 - Feito `;
+
 };
 
 function codeEx7() {
@@ -131,6 +148,8 @@ function codeEx7() {
 
     console.log(`\n`);
 
+    return `\nExercicio 7 - Feito `;
+
 };
 
 function codeEx8() {
@@ -170,6 +189,9 @@ function codeEx8() {
 
         contador++;
     };
+
+    return `\nExercicio 8 - Feito `;
+
 };
 
 function codeEx9() {
@@ -187,6 +209,9 @@ function codeEx9() {
             console.log(`Destino encontrado!`);
         }
     };
+
+    return `\nExercicio 9 - Feito `;
+
 };
 
 function codeImc() {
@@ -223,6 +248,9 @@ function codeImc() {
     console.log(`Nota: A classificação para o peso normal é entre 18.5 e 24.9.`);
 
     console.log(``);
+
+    return `\nDesafio pessoal IMC - Feito `;
+
 };
 
 module.exports = {
