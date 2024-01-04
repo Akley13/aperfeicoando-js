@@ -1,10 +1,11 @@
 {
   "name": "aperfeicoando-js-2",
   "version": "1.0.0",
-  "description": "Trienos - Testes - Exercícios",
-  "main": "1-imprimindoEDeclarandoVariaveis.js",
+  "description": "Práticas - Testes - Exercícios",
+  "main": "index.js",
   "scripts": {
-    "index": "nodemon index.js"
+    "index": "nodemon index.js",
+    "indexPoo": "nodemon ./jsPOO/index.js"
   },
   "keywords": [],
   "author": "",
