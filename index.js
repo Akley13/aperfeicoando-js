@@ -55,5 +55,9 @@ readline.question(`\nDigite o exercicio: `, resposta => {
       mostrar = require("./Exercicios/functionsDosExercicios.js");
       console.log(mostrar.codeImc());
       break;
+    case '11':
+      mostrar = require("./Exercicios/functionsDosExercicios.js");
+      console.log(mostrar.pooEx1());
+      break;
   };
 });
