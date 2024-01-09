@@ -268,29 +268,36 @@ function pooEx1() {
     class Clientes {
         nome;
         cpf;
+   
+    };
+
+    class ContaCorrente {
         agencia;
         saldo;
     };
 
     const cliente1 = new Clientes();
-    const cliente2 = new Clientes();
+    const conta1 = new ContaCorrente();
 
     cliente1.nome = "Akley";
     cliente1.cpf = 4992666175;
-    cliente1.agencia = 1959;
-    cliente1.saldo = 0;
+    conta1.agencia = 1590;
+    conta1.saldo = 500;
+
+    const cliente2 = new Clientes();
+    const conta2 = new ContaCorrente();
 
     cliente2.nome = "Karinne";
     cliente2.cpf = 4555822554;
-    cliente2.agencia = 1985;
-    cliente2.saldo = 0;
+    conta2.agencia = 1985;
+    conta2.saldo = 0;
 
     console.log(`\nDADOS DOS CLIENTES`);
 
     console.log(``);
 
-    console.log(cliente1);
-    console.log(cliente2);
+    console.log(cliente1, conta1);
+    console.log(cliente2, conta2);
 
     return "\npooEx1 - Concluido";
 };
