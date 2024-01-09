@@ -268,38 +268,62 @@ function pooEx1() {
     class Clientes {
         nome;
         cpf;
-   
     };
 
     class ContaCorrente {
         agencia;
         saldo;
+
+        depositar(valor) {
+            this.saldo += valor;
+            console.log("\nDeposito realizado | Saldo atual: " + this.saldo);
+        };
+
+        transferir(valor) {
+            if (valor > this.saldo) {
+                console.log("\nTransferência negada | Valor da transferência:" + valorTransferencia);
+                console.log("Saldo atual: " + this.saldo);
+            } else {
+                this.saldo -= valor;
+                console.log("\nTransferência realizada.");
+                console.log("Saldo atualizado: " + this.saldo);
+            };
+        };
     };
 
+
     const cliente1 = new Clientes();
-    const conta1 = new ContaCorrente();
+    const contaCorrenteAkley = new ContaCorrente();
 
     cliente1.nome = "Akley";
     cliente1.cpf = 4992666175;
-    conta1.agencia = 1590;
-    conta1.saldo = 500;
+    contaCorrenteAkley.agencia = 1590;
+    contaCorrenteAkley.saldo = 500;
+
+    // Chamando com metódos
+    contaCorrenteAkley.depositar(500);
+    contaCorrenteAkley.transferir(200);
 
     const cliente2 = new Clientes();
-    const conta2 = new ContaCorrente();
+    const contaCorrenteKarinne = new ContaCorrente();
 
     cliente2.nome = "Karinne";
-    cliente2.cpf = 4555822554;
-    conta2.agencia = 1985;
-    conta2.saldo = 0;
+    cliente2.cpf = "61462282300"
+    contaCorrenteKarinne.agencia = 2012;
+    contaCorrenteKarinne.saldo = 0;
+
+    contaCorrenteKarinne.depositar(2000);
+    contaCorrenteKarinne.transferir(1000);
 
     console.log(`\nDADOS DOS CLIENTES`);
 
-    console.log(``);
+    pulaLinha();
 
-    console.log(cliente1, conta1);
-    console.log(cliente2, conta2);
+    console.log(cliente1, contaCorrenteAkley);
+    console.log(cliente2, contaCorrenteKarinne);
 
     return "\npooEx1 - Concluido";
+
 };
 
 module.exports = {
