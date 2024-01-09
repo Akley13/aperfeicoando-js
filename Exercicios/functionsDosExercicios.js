@@ -265,15 +265,15 @@ function pooEx1() {
 
     console.log(`\nPROGRAMAÇÃO ORIENTADA A OBJETOS - Code Bank`);
 
-    class dadosDosClientes {
+    class Clientes {
         nome;
         cpf;
         agencia;
         saldo;
     };
 
-    const cliente1 = new dadosDosClientes();
-    const cliente2 = new dadosDosClientes();
+    const cliente1 = new Clientes();
+    const cliente2 = new Clientes();
 
     cliente1.nome = "Akley";
     cliente1.cpf = 4992666175;
@@ -292,23 +292,7 @@ function pooEx1() {
     console.log(cliente1);
     console.log(cliente2);
 
-    const readline = require('readline');
-
-    const leitor = readline.createInterface({
-        input: process.stdin,
-        output: process.stdout
-    });
-
-    function primeiroNome() {
-        leitor.question('Qual é o seu primeiro nome? ', (resposta) => {
-            console.log(`Olá, ${resposta}`);
-        });
-        leitor.close();
-
-    };
-
-    primeiroNome();
-
+    return "\npooEx1 - Concluido";
 };
 
 module.exports = {

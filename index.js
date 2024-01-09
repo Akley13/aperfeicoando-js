@@ -1,3 +1,4 @@
+const { pooEx1 } = require('./Exercicios/functionsDosExercicios.js');
 
 const readline = require('readline').createInterface({
   input: process.stdin,
