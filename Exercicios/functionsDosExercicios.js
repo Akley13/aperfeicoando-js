@@ -259,83 +259,6 @@ function codeImc() {
 
 };
 
-// JAVA POO
-
-function pooEx1() {
-
-    console.log(`\nPROGRAMAÇÃO ORIENTADA A OBJETOS - CODE BANK`);
-
-    class Clientes {
-        nome;
-        cpf;
-    };
-
-    class ContaCorrente {
-        agencia;
-        _saldo = 0;
-
-        depositar(valor) {
-            if (valor > 0) {
-                this._saldo += valor;
-                console.log("\nDepósito realizado | Saldo atual: " + this._saldo);
-            } else {
-                console.log("\nDepósito cancelado | Motivo: Valor negativo: " + valor);
-            }
-         
-        };
-
-        transferir(valor) {
-            if (valor >= this._saldo) {
-                console.log("\nTransferência negada | Valor da transferência: " + valor);
-                console.log("Saldo atual: " + this._saldo);
-                pulaLinha();
-            } else {
-                this._saldo -= valor;
-                console.log("\nTransferência realizada | valor da transferência: " + valor);
-                console.log("Saldo atualizado: " + this._saldo);
-                pulaLinha();
-            };
-        };
-    };
-
-    console.log(`\nDADOS DO CLIENTE`);
-
-    const cliente1 = new Clientes();
-    const contaCorrenteAkley = new ContaCorrente();
-
-    cliente1.nome = "Akley";
-    cliente1.cpf = 4992666175;
-    contaCorrenteAkley.agencia = 1590;
-
-    // Chamando com métodos
-    contaCorrenteAkley.depositar(100);
-    contaCorrenteAkley.depositar(100);
-    contaCorrenteAkley.depositar(100);
-
-    contaCorrenteAkley.transferir(200);
-
-    console.log(cliente1, contaCorrenteAkley);
-
-    console.log(`\nDADOS DO CLIENTE`);
-
-    const cliente2 = new Clientes();
-    const contaCorrenteKarinne = new ContaCorrente();
-
-    cliente2.nome = "Karinne";
-    cliente2.cpf = "61462282300"
-    contaCorrenteKarinne.agencia = 2012;
-
-    contaCorrenteKarinne.depositar(2000);
-    contaCorrenteKarinne.depositar(2000);
-
-    contaCorrenteKarinne.transferir(3000);
-
-    console.log(cliente2, contaCorrenteKarinne);
-
-    return "\npooEx1 - Concluído";
-
-};
-
 module.exports = {
     pulaLinha,
     codeEx1,
@@ -348,5 +271,4 @@ module.exports = {
     codeEx8,
     codeEx9,
     codeImc,
-    pooEx1
 };
