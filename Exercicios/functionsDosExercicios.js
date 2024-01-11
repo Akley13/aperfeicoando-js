@@ -15,7 +15,7 @@ function codeEx1() {
 
     console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
 
-    return `\nExercicio 1 - Feito `;
+    return `\nExercício 1 - Feito `;
 };
 
 function codeEx2() {
@@ -25,36 +25,36 @@ function codeEx2() {
 
     console.log(idade);
 
-    return `\nExercicio 2 - Feito `;
+    return `\nExercício 2 - Feito `;
 
 };
 
 function codeEx3() {
-    console.log("Operacoes aritimeticas");
+    console.log("Operações aritméticas");
 
     console.log(2 + 2);
     console.log((10 + 8) * 2);
     console.log("2" + "2");
     console.log("Ano" + "2023");
 
-    return `\nExercicio 3 - Feito `;
+    return `\nExercício 3 - Feito `;
 
 };
 
 function codeEx4() {
     console.log("Convertendo string em numero \n");
 
-    console.log("Conversao explicita: " + parseInt("2") + parseInt("2"));
+    console.log("Conversão explicita: " + parseInt("2") + parseInt("2"));
 
-    console.log("Conversao implicita: " + "10" / "2");
+    console.log("Conversão implícita: " + "10" / "2");
     console.log("Not a number: " + "Akley" / "2");
 
-    return `\nExercicio 4 - Feito `;
+    return `\nExercício 4 - Feito `;
 
 };
 
 function codeEx5() {
-    console.log("\nInterpolação de variaveis");
+    console.log("\nInterpolação de variáveis");
 
     const akley = "Akley";
     const akleySobrenome = "Alves de Araujo Silva";
@@ -80,7 +80,7 @@ function codeEx5() {
 
     console.log(` \n`);
 
-    return `\nExercicio 5 - Feito `;
+    return `\nExercício 5 - Feito `;
 
 };
 
@@ -109,7 +109,7 @@ function codeEx6() {
 
     console.log(`\n`);
 
-    return `\nExercicio 6 - Feito `;
+    return `\nExercício 6 - Feito `;
 
 };
 
@@ -136,7 +136,7 @@ function codeEx7() {
         console.log(`\nPassagem comprada com sucesso!`);
         console.log(`Destino: `, listaDePaises[1]);
         listaDePaises.splice(1, 1);
-        console.log(`\nLista de Paises disponiveis: `, listaDePaises);
+        console.log(`\nLista de Paises disponíveis: `, listaDePaises);
         console.log(`Lista atualizada: `, listaDePaises.length);
 
     } else {
@@ -154,7 +154,7 @@ function codeEx7() {
 
     console.log(`\n`);
 
-    return `\nExercicio 7 - Feito `;
+    return `\nExercício 7 - Feito `;
 
 };
 
@@ -167,11 +167,11 @@ function codeEx8() {
         `Canadá`
     );
 
-    console.log(`\nDestinos dísponiveis: ${listaDePaises}`);
+    console.log(`\nDestinos disponíveis: ${listaDePaises}`);
 
     const idadeDaPessoa = 18;
     const estaAcompanhado = false;
-    let temPassagemComprada = false;
+    let temPassagemComprada = true;
     const destino = `Estados Unidos da América`;
 
     const CompraAutorizada = idadeDaPessoa >= 18 || estaAcompanhado == true;
@@ -196,7 +196,7 @@ function codeEx8() {
         contador++;
     };
 
-    return `\nExercicio 8 - Feito `;
+    return `\nExercício 8 - Feito `;
 
 };
 
@@ -216,7 +216,7 @@ function codeEx9() {
         }
     };
 
-    return `\nExercicio 9 - Feito `;
+    return `\nExercício 9 - Feito `;
 
 };
 
@@ -307,7 +307,7 @@ function pooEx1() {
     cliente1.cpf = 4992666175;
     contaCorrenteAkley.agencia = 1590;
 
-    // Chamando com metódos
+    // Chamando com métodos
     contaCorrenteAkley.depositar(100);
     contaCorrenteAkley.depositar(100);
     contaCorrenteAkley.depositar(100);
@@ -332,7 +332,7 @@ function pooEx1() {
 
     console.log(cliente2, contaCorrenteKarinne);
 
-    return "\npooEx1 - Concluido";
+    return "\npooEx1 - Concluído";
 
 };
 
