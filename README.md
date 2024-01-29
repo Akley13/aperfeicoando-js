@@ -1,2 +1,2 @@
-# aperfeicoando-js-2
+# aperfeicoando-js
  Treinos - Testes - Exercícios 
