@@ -4,8 +4,8 @@
   "description": "Práticas - Testes - Exercícios",
   "main": "index.js",
   "scripts": {
-    "index": "nodemon --experimental-modules index.js",
-    "testes": "nodemon ./Exercicios/testes.js"
+    "index": "nodemon index.js",
+    "testes": "nodemon testes.js"
   },
   "keywords": [],
   "author": "",
