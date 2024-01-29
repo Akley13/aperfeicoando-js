@@ -2,7 +2,7 @@ function pulaLinha() {
 
     console.log("");
 
-}
+} 
 
 function codeEx1() {
     console.log("Primeiro programa: Trabalhando com variáveis!");

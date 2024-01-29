@@ -1,4 +1,6 @@
-export class ContaCorrente {
+const { pulaLinha } = require("../Exercicios/functionsDosExercicios");
+
+class ContaCorrente {
     agencia;
     _saldo = 0;
 
@@ -25,3 +27,5 @@ export class ContaCorrente {
         };
     };
 };
+
+module.exports  = { ContaCorrente };

@@ -1,4 +1,6 @@
-export class Clientes {
+class Clientes {
     nome;
     cpf;
 };
+
+module.exports= { Clientes }

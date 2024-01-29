@@ -1,5 +1,5 @@
-import { Clientes } from "./Clientes.js";
-import { ContaCorrente } from "./ContaCorrente.js";
+const { Clientes } = require("./Clientes.js");
+const { ContaCorrente } = require("./ContaCorrente.js");
 
 function pooEx1() {
 

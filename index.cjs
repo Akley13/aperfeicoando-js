@@ -60,7 +60,7 @@ function perguntaExercicio() {
           console.log(mostrar.codeImc());
           break;
         case '11':
-          mostrar = require("./DesafioBanco/index.js");
+          mostrar = require("./DesafioBanco/index.cjs");
           console.log(mostrar.pooEx1());
           break;
       };
