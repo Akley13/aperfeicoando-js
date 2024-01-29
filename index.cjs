@@ -4,7 +4,7 @@ const readline = require('readline').createInterface({
 });
 
 function perguntaExercicio() {
-  readline.question(`\nDigite o exercício ou 0 para encerrar: `, resposta => {
+  readline.question(`\nDigite o exercício ou 0 e CTRL+C para encerrar: `, resposta => {
     if (resposta === '0') {
       console.log('Encerrando...');
       readline.close();
